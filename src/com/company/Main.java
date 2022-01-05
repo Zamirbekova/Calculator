@@ -62,7 +62,7 @@ public class Main {
         }
         static String convertNumToRoman ( int numRim){
             String[] roman = {"O", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII", "XIV", "XV"
-                    , "XVI", "XVII"};
+                    , "XVI", "XVII","XVIII","XIX","XX","XXI","XXII","XXIII","XXIV","XXV","XXVI"};
             final String s = roman[numRim];
             return s;
         }
